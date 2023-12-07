@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: cinema
+    description: "my demo model"
+    columns:
+      - name: actor_id
+        description: "The actors' names"
+        tests:
+          - unique
+          - not_null
